@@ -5,39 +5,36 @@ homepage: https://sourcya.io
 repository: https://github.com/playx-flutter/playx_version_update
 issue_tracker: https://github.com/playx-flutter/playx_version_update/issues
 screenshots:
-  - description: 'This screenshot shows Google play flexible in app update flow'
+  - description: "This screenshot shows Google play flexible in app update flow"
     path: screenshots/screenshot7.png
-  - description: 'This screenshot shows Android style update dialog.'
+  - description: "This screenshot shows Android style update dialog."
     path: screenshots/screenshot4.jpg
-  - description: 'This screenshot shows Google play immediate in app update'
+  - description: "This screenshot shows Google play immediate in app update"
     path: screenshots/screenshot2.jpg
-  - description: 'This screenshot shows IOS style update dialog.'
+  - description: "This screenshot shows IOS style update dialog."
     path: screenshots/screenshot3.jpg
-  - description: 'This screenshot shows update page.'
+  - description: "This screenshot shows update page."
     path: screenshots/screenshot5.jpg
-  - description: 'This screenshot shows Android style update dialog with release notes and force update enabled.'
+  - description: "This screenshot shows Android style update dialog with release notes and force update enabled."
     path: screenshots/screenshot6.jpg
 
 topics:
-    - playx
-    - update
-    - in-app-update
-    - upgrade
-
+  - playx
+  - update
+  - in-app-update
+  - upgrade
 
 environment:
-  sdk: '>=3.6.0 <4.0.0'
+  sdk: ">=3.6.0 <4.0.0"
   flutter: ">=3.27.0"
 
 dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.1.8
-  package_info_plus: ">=8.3.0 <10.0.0"
+  package_info_plus: ">=8.3.0 <10.2.1"
   url_launcher: ^6.3.2
   playx_network: ^1.0.0
-
-
 
 dev_dependencies:
   flutter_test:
