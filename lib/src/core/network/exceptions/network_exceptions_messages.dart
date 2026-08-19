@@ -1,4 +1,4 @@
-import 'package:playx_network/src/models/exceptions/message/exception_message.dart';
+import 'package:playx_network/playx_network.dart';
 
 /// Default error messages related to network requests when
 /// fetching version information from the App Store or Google Play.
@@ -69,4 +69,7 @@ class NetworkExceptionsMessages extends ExceptionMessage {
   @override
   String get unexpectedError =>
       "An unexpected error occurred while checking for updates.";
+
+  @override
+  String get transformTimeout => "Timed out while parsing the response.";
 }
